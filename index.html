@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ワンダフル美容外科｜アクセス</title>
+  <title>ワンダフル美容外科｜公式リンク</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: sans-serif; background: #f9f6f2; }
@@ -11,39 +11,61 @@
       background: #3d2050;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 24px 16px;
     }
-    .header h1 { font-size: 18px; margin-bottom: 4px; }
-    .header p  { font-size: 13px; opacity: 0.8; }
-    .map-wrap  { width: 100%; height: 60vh; }
+    .header h1 { font-size: 20px; margin-bottom: 4px; }
+    .header p { font-size: 13px; opacity: 0.75; }
+    .map-wrap { width: 100%; height: 55vh; }
     .map-wrap iframe { width: 100%; height: 100%; border: none; }
-    .info {
-      padding: 20px 16px;
-      max-width: 480px;
-      margin: 0 auto;
-    }
-    .badge {
-      display: inline-block;
+    .access-badge {
       background: #E8593C;
       color: white;
-      font-size: 13px;
-      padding: 4px 12px;
-      border-radius: 20px;
-      margin-bottom: 12px;
-    }
-    .info p { font-size: 14px; color: #444; line-height: 1.8; }
-    .btn {
-      display: block;
-      margin: 16px auto 0;
-      background: #06C755;
-      color: white;
       text-align: center;
-      padding: 14px;
-      border-radius: 8px;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .links {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 20px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      border-radius: 10px;
       text-decoration: none;
       font-size: 15px;
       font-weight: bold;
-      max-width: 480px;
+      color: white;
+    }
+    .btn span.label { flex: 1; }
+    .btn span.sub {
+      font-size: 11px;
+      font-weight: normal;
+      opacity: 0.85;
+      display: block;
+      margin-top: 2px;
+    }
+    .btn-line    { background: #06C755; }
+    .btn-web     { background: #3d2050; }
+    .btn-ig-jp   { background: #C13584; }
+    .btn-ig-kr   { background: #833AB4; }
+    .btn-youtube { background: #FF0000; }
+    .btn-blog    { background: #00A0E9; }
+    .btn-tiktok  { background: #010101; }
+    .btn-x       { background: #14171A; }
+    .icon { font-size: 20px; width: 24px; text-align: center; }
+    .footer {
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 12px;
+      color: #999;
     }
   </style>
 </head>
@@ -51,7 +73,7 @@
 
   <div class="header">
     <h1>ワンダフル美容外科</h1>
-    <p>원더풀성형외과</p>
+    <p>원더풀성형외과의원</p>
   </div>
 
   <div class="map-wrap">
@@ -63,17 +85,81 @@
     </iframe>
   </div>
 
-  <div class="info">
-    <span class="badge">🚇 江南駅 10番出口 徒歩2分</span>
-    <p>
-      ソウル市 瑞草区 江南大路419 パゴダタワー<br>
-      日本語スタッフ在籍・LINE相談無料
-    </p>
+  <div class="access-badge">
+    🚇 江南駅 10番出口 徒歩2分
   </div>
 
-  <a class="btn" href="https://lin.ee/sVuCMuV">
-    💬 LINEで無料相談する
-  </a>
+  <div class="links">
+
+    <a class="btn btn-line" href="https://lin.ee/sVuCMuV">
+      <span class="icon">💬</span>
+      <span class="label">
+        公式LINE
+        <span class="sub">無料相談・ご予約はこちら</span>
+      </span>
+    </a>
+
+    <a class="btn btn-web" href="https://jp.wonderfulps.com/">
+      <span class="icon">🏠</span>
+      <span class="label">
+        公式ホームページ
+        <span class="sub">施術・料金案内</span>
+      </span>
+    </a>
+
+    <a class="btn btn-ig-jp" href="https://www.instagram.com/wonderfulps_jp/">
+      <span class="icon">📸</span>
+      <span class="label">
+        公式Instagram（日本）
+        <span class="sub">症例・最新情報</span>
+      </span>
+    </a>
+
+    <a class="btn btn-ig-kr" href="https://www.instagram.com/wonderful_main/">
+      <span class="icon">📸</span>
+      <span class="label">
+        公式Instagram（韓国）
+        <span class="sub">韓国公式アカウント</span>
+      </span>
+    </a>
+
+    <a class="btn btn-youtube" href="https://www.youtube.com/@WonderfulPlasticSurgery">
+      <span class="icon">▶️</span>
+      <span class="label">
+        公式YouTube
+        <span class="sub">日本語字幕あり</span>
+      </span>
+    </a>
+
+    <a class="btn btn-blog" href="https://ameblo.jp/wonderfulps-jp/">
+      <span class="icon">📝</span>
+      <span class="label">
+        公式Ameba BLOG
+        <span class="sub">スタッフブログ</span>
+      </span>
+    </a>
+
+    <a class="btn btn-tiktok" href="https://www.tiktok.com/@wonderfulps_jp">
+      <span class="icon">🎵</span>
+      <span class="label">
+        公式TikTok
+        <span class="sub">動画コンテンツ</span>
+      </span>
+    </a>
+
+    <a class="btn btn-x" href="https://x.com/wonderfulps_jp">
+      <span class="icon">✖️</span>
+      <span class="label">
+        公式X（Twitter）
+        <span class="sub">最新情報</span>
+      </span>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    © ワンダフル美容外科 / Wonderful Plastic Surgery
+  </div>
 
 </body>
 </html>
